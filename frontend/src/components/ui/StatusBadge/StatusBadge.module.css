@@ -1,0 +1,45 @@
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: #1c2229;
+  color: #aab3bf;
+  white-space: nowrap
+}
+
+.statusDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #87929f
+}
+
+.statuswarning {
+  color: #e7b275;
+  background: #35291f
+}
+
+.statuswarning .statusDot {
+  background: #dca15d
+}
+
+.statussuccess {
+  color: #77cea0;
+  background: #1d3028
+}
+
+.statussuccess .statusDot {
+  background: #68c99a
+}
+
+.statusblue {
+  color: #91b7fb;
+  background: #1d2d46
+}
+
+.statusblue .statusDot {
+  background: #7da9ee
+}

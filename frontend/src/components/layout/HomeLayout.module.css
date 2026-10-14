@@ -1,0 +1,43 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  background: var(--bg);
+  color: var(--text);
+  font-size: var(--font-size-base);
+}
+
+.main {
+  min-width: 0;
+  flex: 1;
+}
+
+
+.sidebarWrap {
+  width: 246px;
+  flex: none;
+  border-right: 1px solid var(--border);
+  background: #0e1115;
+  z-index: 20;
+}
+
+@media (max-width:768px) {
+  .sidebarWrap {
+      position: fixed;
+      left: -246px;
+      top: 0;
+      height: 100vh;
+      transition: left .2s ease
+    }
+  
+    .sidebarOpen {
+      left: 0
+    }
+  
+    .backdrop {
+      position: fixed;
+      inset: 0;
+      background: #0008;
+      border: 0;
+      z-index: 10
+    }
+}

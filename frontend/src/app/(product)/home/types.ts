@@ -1,0 +1,1 @@
+export type HomeView = 'home' | 'ask' | 'investigate' | 'incidents' | 'code' | 'docs';

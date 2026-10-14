@@ -1,0 +1,437 @@
+.page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 44px 46px 60px;
+}
+
+.homeHeader,
+.detailHeader,
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.eyebrow,
+.sectionEyebrow {
+  color: #6d7886;
+  font-size: 10px;
+  letter-spacing: .1em;
+  font-weight: 600;
+}
+
+.live {
+  color: #6fcf9d;
+  margin-left: 9px;
+  font-size: 9px
+}
+
+.live span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: #65cc9a;
+  border-radius: 50%;
+  margin-right: 4px
+}
+
+.homeHeader h1,
+.detailHeader h1,
+.listHeader h1 {
+  margin: 9px 0 5px;
+  font-size: 25px;
+  letter-spacing: -.04em;
+  font-weight: 600
+}
+
+.homeHeader p,
+.listHeader p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px
+}
+
+.outlineButton,
+.primaryButton {
+  height: 32px;
+  padding: 0 11px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer
+}
+
+.outlineButton {
+  border: 1px solid var(--border-hi);
+  background: #151920;
+  color: #b4bdc9
+}
+
+.primaryButton {
+  border: 1px solid #668bcf;
+  background: #2a4a80;
+  color: #dbe8ff
+}
+
+.heroAsk {
+  margin-top: 39px;
+  border: 1px solid var(--border);
+  background: linear-gradient(120deg, #111820, #101419);
+  padding: 27px 29px 24px;
+  border-radius: 7px
+}
+
+.sectionEyebrow {
+  color: #8ea7d3;
+  display: flex;
+  align-items: center;
+  gap: 7px
+}
+
+.heroAsk h2 {
+  font-size: 20px;
+  margin: 12px 0 5px;
+  letter-spacing: -.03em;
+  font-weight: 500
+}
+
+.heroAsk p {
+  color: var(--muted);
+  margin: 0 0 19px
+}
+
+.askBox {
+  border: 1px solid #344250;
+  background: #0c1015;
+  border-radius: 6px;
+  padding: 13px 13px 9px;
+  box-shadow: 0 7px 20px #0000001c
+}
+
+.askBoxTop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #748397
+}
+
+.askBoxTop input {
+  background: none;
+  border: 0;
+  outline: 0;
+  color: var(--text);
+  flex: 1;
+  font: 13px inherit
+}
+
+.askBoxTop input::placeholder {
+  color: #66717e
+}
+
+.askBoxTop kbd {
+  margin-left: auto
+}
+
+.askBoxBottom {
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+  color: #677482;
+  font-size: 11px
+}
+
+.askBoxBottom span {
+  display: flex;
+  align-items: center;
+  gap: 6px
+}
+
+.askModel {
+  margin-left: auto;
+  margin-right: 9px
+}
+
+.sendButton {
+  border: 0;
+  background: #668dcc;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center
+}
+
+.promptRow {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin-top: 13px
+}
+
+.prompt {
+  background: #171d25;
+  color: #98a5b3;
+  border: 1px solid #2b3440;
+  border-radius: 4px;
+  padding: 7px 9px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer
+}
+
+.prompt:hover,
+.textButton:hover {
+  color: #cfddf2;
+  border-color: #516d9c
+}
+
+.prompt svg {
+  color: #657fbb
+}
+
+.healthSection,
+.recentSection {
+  margin-top: 39px
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 13px
+}
+
+.sectionHeader h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 4px
+}
+
+.sectionHeader span {
+  font-size: 11px;
+  color: #667180
+}
+
+.textButton {
+  border: 0;
+  background: none;
+  color: #7e9fdb;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 2px 0
+}
+
+.healthGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #101419
+}
+
+.healthItem {
+  min-height: 96px;
+  padding: 17px 15px;
+  display: flex;
+  gap: 11px;
+  position: relative;
+  border-right: 1px solid var(--border)
+}
+
+.healthItem:last-child {
+  border: 0
+}
+
+.healthIcon {
+  width: 27px;
+  height: 27px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center
+}
+
+.healthwarning {
+  color: #e2ac68;
+  background: #3a2c1e
+}
+
+.healthblue {
+  color: #8db8ff;
+  background: #1e314e
+}
+
+.healthdanger {
+  color: #e88789;
+  background: #3c2429
+}
+
+.healthpurple {
+  color: #b4a3fa;
+  background: #2e2949
+}
+
+.healthLabel {
+  font-size: 11px;
+  color: #8994a2
+}
+
+.healthValue {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 3px
+}
+
+.healthSub {
+  font-size: 10px;
+  color: #626d7b;
+  margin-top: 5px
+}
+
+.healthArrow {
+  margin-left: auto;
+  color: #45505d
+}
+
+.investigationList,
+.incidentTable {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden
+}
+
+.investigationRow {
+  height: 62px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: #101419;
+  color: var(--text);
+  padding: 0 15px;
+  gap: 14px;
+  cursor: pointer
+}
+
+.investigationRow:last-child {
+  border: 0
+}
+
+.investigationRow:hover,
+.incidentRow:hover,
+.result:hover {
+  background: #151b23
+}
+
+.severityLine {
+  width: 3px;
+  height: 28px;
+  border-radius: 2px
+}
+
+.severityhigh {
+  background: #dd7b78
+}
+
+.severitymedium {
+  background: #dba966
+}
+
+.severitylow {
+  background: #66c395
+}
+
+.investigationMain {
+  min-width: 0;
+  flex: 1
+}
+
+.investigationMain strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 7px
+}
+
+.investigationMain span {
+  font-size: 10px;
+  color: #707b88
+}
+
+.mono {
+  font: 10px 'DM Mono', monospace;
+  color: #92a2b6
+}
+
+.dotSep {
+  margin: 0 7px;
+  color: #454e5b
+}
+
+.rowTime {
+  font-size: 10px;
+  color: #687482;
+  min-width: 68px;
+  text-align: right
+}
+
+.rowChevron {
+  color: #495460
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: #1c2229;
+  color: #aab3bf;
+  white-space: nowrap
+}
+
+.statusDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #87929f
+}
+
+.statuswarning {
+  color: #e7b275;
+  background: #35291f
+}
+
+.statuswarning .statusDot {
+  background: #dca15d
+}
+
+.statussuccess {
+  color: #77cea0;
+  background: #1d3028
+}
+
+.statussuccess .statusDot {
+  background: #68c99a
+}
+
+.statusblue {
+  color: #91b7fb;
+  background: #1d2d46
+}
+
+.statusblue .statusDot {
+  background: #7da9ee
+}

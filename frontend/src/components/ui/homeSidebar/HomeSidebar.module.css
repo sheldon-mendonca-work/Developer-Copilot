@@ -1,0 +1,245 @@
+.sidebar {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 17px 12px 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px 21px;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -.04em;
+}
+
+.brandMark {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #6183c7;
+  background: #243451;
+  color: #a6c2ff;
+  border-radius: 6px;
+}
+
+.beta {
+  color: #718096;
+  font-size: 9px;
+  letter-spacing: .08em;
+  margin-left: 1px;
+  font-weight: 600;
+}
+
+.workspace {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: #141820;
+  color: var(--text);
+  border-radius: 6px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 9px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.workspace svg {
+  margin-left: auto;
+  color: var(--subtle);
+}
+
+.workspaceIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background: #284876;
+  color: #a8c9ff;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.sidebarLabel {
+  color: #596370;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-weight: 600;
+  margin: 23px 10px 7px;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 17px 8px 0;
+}
+
+.integrations {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.integration {
+  border: 0;
+  background: transparent;
+  color: #8993a0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border-radius: 5px;
+  height: 31px;
+  padding: 0 10px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.integrationIcon {
+  width: 18px;
+  display: grid;
+  place-items: center;
+  color: #a9b3c2;
+}
+
+.iconGitHub {
+  color: #e5e7eb
+}
+
+.iconJira {
+  color: #73a7f5
+}
+
+.iconConfluence {
+  color: #6ec0f0
+}
+
+.iconDatadog {
+  color: #b6a5ff
+}
+
+.connected {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #5bc48f;
+  margin-left: auto;
+}
+
+.sidebarBottom {
+  margin-top: auto;
+}
+
+.userRow {
+  border-top: 1px solid var(--border);
+  padding: 13px 7px 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.userRow .avatar {
+  flex: none;
+}
+
+.userRow strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.userRow small {
+  display: block;
+  color: var(--subtle);
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.userRow svg {
+  margin-left: auto;
+  color: var(--subtle);
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  background: #304866;
+  color: #b9d2f6;
+  display: grid;
+  place-items: center;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.navItem {
+  height: 33px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: #8c96a4;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.navItem:hover,
+.integration:hover,
+.historyItem:hover {
+  background: #181d25;
+  color: #d9dee6;
+}
+
+.navActive {
+  background: #1d293b;
+  color: #d7e5ff;
+}
+
+.navActive svg {
+  color: #8eb5ff;
+}
+
+.navCount {
+  margin-left: auto;
+  color: #e9b373;
+  font-size: 11px;
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 17px 8px 0;
+}
+
+.integrations {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.integration {
+  border: 0;
+  background: transparent;
+  color: #8993a0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border-radius: 5px;
+  height: 31px;
+  padding: 0 10px;
+  font-size: 12px;
+  text-align: left;
+}

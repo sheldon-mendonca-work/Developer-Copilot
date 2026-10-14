@@ -1,0 +1,79 @@
+.topbar {
+  height: 58px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  justify-content: space-between;
+  background: rgba(11, 13, 16, .88);
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #667180;
+  font-size: 12px;
+}
+
+.breadcrumb svg {
+  color: #424a55
+}
+
+.breadcrumb strong {
+  color: #b2bac5;
+  font-weight: 500
+}
+
+.topActions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.globalSearch {
+  height: 30px;
+  width: 245px;
+  border: 1px solid var(--border);
+  background: #11151b;
+  color: #6f7987;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 9px;
+  font-size: 11px;
+  text-align: left;
+}
+
+.globalSearch kbd {
+  margin-left: auto
+}
+
+.iconButton {
+  position: relative;
+  border: 0;
+  background: transparent;
+  color: #84909f;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+}
+
+.notificationDot {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  width: 4px;
+  height: 4px;
+  background: #e5a466;
+  border-radius: 50%;
+  border: 1px solid var(--bg)
+}
+
+.mobileMenu {
+  display: none;
+  background: none;
+  border: 0;
+  color: var(--muted)
+}

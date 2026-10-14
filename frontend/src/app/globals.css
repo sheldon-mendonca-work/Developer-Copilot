@@ -1,3 +1,31 @@
 @import "tailwindcss";
 
 
+:root {
+  --bg: #0b0d10;
+  --surface: #101318;
+  --elevated: #151920;
+  --border: #242a33;
+  --border-hi: #303844;
+  --text: #e8ebef;
+  --muted: #8b95a3;
+  --subtle: #5c6673;
+  --accent: #8eb5ff;
+  --green: #6fd1a0;
+  --orange: #e7ac64;
+  --red: #e57a7d;
+  --purple: #b3a1ff;
+  --base-font-family: 'Geist', ui-sans-serif, system-ui, sans-serif;
+
+  --font-size-base: 13px;
+}
+
+*, *>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--base-font-family);
+}
